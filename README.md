@@ -1,5 +1,5 @@
 # blanket-inline
-Script snippet extending blanket.js by adding option testing coverage of embeded scripts
+Script snippet extending blanket.js by adding option of testing coverage of embeded scripts
 
 ## Config
 
