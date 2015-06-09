@@ -1,4 +1,16 @@
 # blanket-inline
-Script snippet that allow to use blanket.js for "inline" scripts
+Script snippet extending blanket.js by adding option testing coverage of embeded scripts
 
-To test code coverage on javascript embeded directly in document use data attribute "data-cover-embed" and add this script to end of the file.
+## Config
+
+Add a data-cover-embed attribute to the script reference of each embeded javascript in document you want covered
+
+```javascript
+<script data-cover-embed>
+function test (a) {
+	if (a)
+		return true
+	return false
+}
+</script>
+```
